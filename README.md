@@ -8,21 +8,15 @@
   <p><b>Web &amp; Mobile Developer &bull; Yogyakarta, Indonesia</b></p>
   <p><i>Building responsive web apps &amp; fluid cross-platform mobile experiences.</i></p>
 
-  <!-- Connect & Social Badges -->
-  <a href="https://linkedin.com/in/mahenputra" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <!-- Connect & Social Badges (Colored) -->
   <a href="mailto:mahendradwiputra8@gmail.com">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/Mahenputraa" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://instagram.com/putrahndraa" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://mahenputra.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 
   <br /><br />
@@ -137,9 +131,16 @@ Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang b
 <br /><br />
 
 <div align="center">
-  <p><b>Interested in collaborating or building something together?</b></p>
-  <p>Feel free to connect via <a href="https://instagram.com/putrahndraa">Instagram</a> or send an <a href="mailto:mahendradwiputra8@gmail.com">Email</a>.</p>
+  <p><b>Let's Connect &amp; Collaborate!</b></p>
   <br />
+  <a href="https://instagram.com/putrahndraa" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  &nbsp;
+  <a href="mailto:mahendradwiputra8@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <br /><br />
   <sub>Developed &bull; Architected by <a href="https://github.com/Mahenputraa">@Mahenputraa</a> &bull; Yogyakarta, Indonesia</sub>
 </div>
 
