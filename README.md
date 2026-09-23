@@ -71,34 +71,10 @@ Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang b
         &nbsp;
         <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
       </td>
-      <!-- PT NusaGo -->
-      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
-        <h4>🏢 PT NusaGo</h4>
-        <p><i>Official responsive company website.</i></p>
-        <br />
-        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/TAILWIND_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-        <br /><br />
-        <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-      </td>
-    </tr>
-    <tr>
-      <!-- NusaGo Partner Docs -->
-      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
-        <h4>📑 NusaGo Partner Docs</h4>
-        <p><i>Internal documentation platform frontend.</i></p>
-        <br />
-        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-      </td>
       <!-- NusaGo Mobile App -->
       <td width="380" valign="top" align="center" style="padding: 24px 16px;">
         <h4>📱 NusaGo Mobile App</h4>
-        <p><i>Mobile application UI screens.</i></p>
+        <p><i>Mobile application UI screens &amp; fluid UX.</i></p>
         <br />
         <img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
         &nbsp;
@@ -106,23 +82,49 @@ Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang b
       </td>
     </tr>
     <tr>
-      <!-- AppleScan ML Interface -->
+      <!-- Product Catalog App -->
       <td width="380" valign="top" align="center" style="padding: 24px 16px;">
-        <h4><a href="https://github.com/Mahenputraa/fruits_classification_tensorflow">🍎 AppleScan ML Interface</a></h4>
-        <p><i>UI for ML-based fruit classification.</i></p>
+        <h4><a href="https://github.com/Mahenputraa/product-catalog-app">🛍️ Product Catalog App</a></h4>
+        <p><i>Mobile product catalog &amp; showcase app.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/DART-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+      </td>
+      <!-- Coding Collective Clone -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4><a href="https://github.com/Mahenputraa/coding-collective-clone">💻 Coding Collective Clone</a></h4>
+        <p><i>Modern web platform replica with clean UI.</i></p>
         <br />
         <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
         &nbsp;
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
       </td>
-      <!-- HairCheck System -->
+    </tr>
+    <tr>
+      <!-- Sistem Registrasi Acara -->
       <td width="380" valign="top" align="center" style="padding: 24px 16px;">
-        <h4>💇 HairCheck System</h4>
-        <p><i>UI/UX design &amp; frontend development.</i></p>
+        <h4><a href="https://github.com/Mahenputraa/sistem-registrasi-acara">📑 Sistem Registrasi Acara</a></h4>
+        <p><i>Web-based event &amp; workshop registration platform.</i></p>
         <br />
-        <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
         &nbsp;
-        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      </td>
+      <!-- Fruit Classification ML -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4><a href="https://github.com/Mahenputraa/fruits_classification_tensorflow">🍎 Fruit Classification ML</a></h4>
+        <p><i>Deep learning image classification with TensorFlow.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/JUPYTER-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
       </td>
     </tr>
   </table>
@@ -143,4 +145,3 @@ Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang b
   <br /><br />
   <sub>Developed &bull; Architected by <a href="https://github.com/Mahenputraa">@Mahenputraa</a> &bull; Yogyakarta, Indonesia</sub>
 </div>
-
