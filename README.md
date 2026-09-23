@@ -62,7 +62,7 @@ Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang b
     <tr>
       <!-- TheKost -->
       <td width="380" valign="top" align="center" style="padding: 24px 16px;">
-        <h4><a href="https://github.com/Mahenputraa/thekost">🏨 TheKost</a></h4>
+        <h4>🏨 TheKost</h4>
         <p><i>Property rental platform frontend.</i></p>
         <br />
         <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
