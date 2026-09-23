@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0B1326"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#334155" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Center Accent Line Gradient -->
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#818CF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Shimmer Highlight Gradient -->
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Subtle Dot Grid -->
+    <pattern id="gridDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.85" fill="#38BDF8" fill-opacity="0.2"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="centerGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .font-main { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+      .font-code { font-family: 'Fira Code', 'SF Mono', Consolas, monospace; }
+
+      /* Subtly Animated CSS for GitHub Native Rendering */
+      @keyframes pulseIndicator {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+
+      @keyframes shimmerSweep {
+        0% { transform: translateX(-300px); opacity: 0; }
+        30% { opacity: 1; }
+        70% { opacity: 1; }
+        100% { transform: translateX(300px); opacity: 0; }
+      }
+
+      @keyframes ambientAura {
+        0%, 100% { opacity: 0.05; transform: scale(1); }
+        50% { opacity: 0.09; transform: scale(1.08); }
+      }
+
+      .pulse-dot {
+        animation: pulseIndicator 2.4s ease-in-out infinite;
+        transform-origin: -88px 0px;
+      }
+
+      .ambient-glow {
+        animation: ambientAura 6s ease-in-out infinite;
+        transform-origin: 600px 160px;
+      }
+
+      .shimmer-active {
+        animation: shimmerSweep 4.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#gridDots)"/>
+
+  <!-- Atmospheric Glow Center (Animated Breathing Aura) -->
+  <circle cx="600" cy="160" r="260" fill="#38BDF8" class="ambient-glow" filter="url(#centerGlow)"/>
+  <circle cx="600" cy="160" r="160" fill="#818CF8" class="ambient-glow" filter="url(#centerGlow)"/>
+
+  <!-- Border -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="none" stroke="url(#borderGradient)" stroke-width="1.2"/>
+
+  <!-- Corner Brackets -->
+  <g stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.6">
+    <path d="M 24 38 L 24 24 L 38 24"/>
+    <path d="M 1176 38 L 1176 24 L 1162 24"/>
+    <path d="M 24 282 L 24 296 L 38 296"/>
+    <path d="M 1176 282 L 1176 296 L 1162 296"/>
+  </g>
+
+  <!-- CONTENT (Centered, Symmetrical, Zero Slop) -->
+  <g transform="translate(600, 0)">
+    
+    <!-- Top Role Badge (Presisi di tengah, pas tanpa ruang kosong, dengan status dot animasi) -->
+    <g transform="translate(0, 52)">
+      <rect x="-110" y="-14" width="220" height="28" rx="14" fill="#0E172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="-88" cy="0" r="3.5" fill="#10B981" class="pulse-dot"/>
+      <text x="-76" y="4" class="font-code" font-size="11" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">WEB &amp; MOBILE DEVELOPER</text>
+    </g>
+
+    <!-- Main Name -->
+    <text x="0" y="125" text-anchor="middle" class="font-main" font-size="44" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">
+      MAHENDRA DWI PUTRA
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="162" text-anchor="middle" class="font-main" font-size="16.5" font-weight="500" fill="#94A3B8" letter-spacing="0.2">
+      Crafting intuitive mobile applications &amp; responsive web experiences
+    </text>
+
+    <!-- Center Glowing Divider Line with Shimmer Pulse -->
+    <g transform="translate(0, 188)">
+      <rect x="-240" y="0" width="480" height="1.5" fill="url(#glowLine)"/>
+      <rect x="-60" y="-0.5" width="120" height="2.5" fill="url(#shimmerGrad)" class="shimmer-active"/>
+    </g>
+
+    <!-- Tech Stack Pills Row (Clean SVG Vector Icons, No emojis, No Right-side Boxes) -->
+    <g transform="translate(0, 222)">
+      <!-- Flutter & Dart -->
+      <g transform="translate(-255, 0)">
+        <rect x="-70" y="-14" width="140" height="28" rx="6" fill="#0C1424" stroke="#1E293B" stroke-width="1"/>
+        <rect x="-56" y="-7" width="10" height="14" rx="2" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+        <line x1="-53" y1="4" x2="-49" y2="4" stroke="#38BDF8" stroke-width="1.2"/>
+        <text x="5" y="4" text-anchor="middle" class="font-main" font-size="11.5" font-weight="600" fill="#E2E8F0">Flutter &amp; Dart</text>
+      </g>
+
+      <!-- React & Tailwind -->
+      <g transform="translate(-85, 0)">
+        <rect x="-75" y="-14" width="150" height="28" rx="6" fill="#0C1424" stroke="#1E293B" stroke-width="1"/>
+        <circle cx="-60" cy="0" r="6" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+        <ellipse cx="-60" cy="0" rx="3" ry="6" fill="none" stroke="#38BDF8" stroke-width="1"/>
+        <line x1="-66" y1="0" x2="-54" y2="0" stroke="#38BDF8" stroke-width="1"/>
+        <text x="6" y="4" text-anchor="middle" class="font-main" font-size="11.5" font-weight="600" fill="#E2E8F0">React &amp; Tailwind</text>
+      </g>
+
+      <!-- Supabase & SQL -->
+      <g transform="translate(90, 0)">
+        <rect x="-80" y="-14" width="160" height="28" rx="6" fill="#0C1424" stroke="#1E293B" stroke-width="1"/>
+        <ellipse cx="-64" cy="-4" rx="6" ry="2.5" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+        <path d="M -70 -4 L -70 4 A 6 2.5 0 0 0 -58 4 L -58 -4" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+        <text x="6" y="4" text-anchor="middle" class="font-main" font-size="11.5" font-weight="600" fill="#E2E8F0">Supabase &amp; SQL</text>
+      </g>
+
+      <!-- REST APIs -->
+      <g transform="translate(255, 0)">
+        <rect x="-65" y="-14" width="130" height="28" rx="6" fill="#0C1424" stroke="#1E293B" stroke-width="1"/>
+        <path d="M -54 -2 L -48 -2 C -46 -2 -45 -1 -45 1 C -45 3 -46 4 -48 4 L -54 4" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+        <path d="M -52 1 L -46 1" stroke="#38BDF8" stroke-width="1.2"/>
+        <text x="5" y="4" text-anchor="middle" class="font-main" font-size="11.5" font-weight="600" fill="#E2E8F0">REST APIs</text>
+      </g>
+    </g>
+
+    <!-- Bottom Location & Profile Meta -->
+    <text x="0" y="278" text-anchor="middle" class="font-code" font-size="11" fill="#64748B" letter-spacing="0.5">
+      Yogyakarta, Indonesia &#8226; <tspan fill="#38BDF8">@Mahenputraa</tspan> &#8226; <tspan fill="#94A3B8">mahendradwiputra8@gmail.com</tspan>
+    </text>
+
+  </g>
+</svg>

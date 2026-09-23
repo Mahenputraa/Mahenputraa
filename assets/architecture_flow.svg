@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="flowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0A1120"/>
+    </linearGradient>
+
+    <!-- Node Card Gradient -->
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E172A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#090E1A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Animated Data Flow Line Gradients -->
+    <linearGradient id="flowCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'Fira Code', 'SF Mono', Consolas, monospace; }
+
+      @keyframes packetMobile {
+        0% { cx: 280; opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { cx: 410; opacity: 0; }
+      }
+
+      @keyframes packetWeb {
+        0% { cx: 720; opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { cx: 590; opacity: 0; }
+      }
+
+      @keyframes packetDb {
+        0% { cy: 110; opacity: 0; }
+        30% { opacity: 1; }
+        70% { opacity: 1; }
+        100% { cy: 175; opacity: 0; }
+      }
+
+      .flow-mobile { animation: packetMobile 2.5s infinite ease-in-out; }
+      .flow-web { animation: packetWeb 2.5s infinite ease-in-out 0.5s; }
+      .flow-db { animation: packetDb 2.2s infinite ease-in-out 1s; }
+    </style>
+  </defs>
+
+  <!-- Canvas Frame -->
+  <rect x="2" y="2" width="996" height="236" rx="14" fill="url(#flowBg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Header Metaline -->
+  <g transform="translate(30, 28)">
+    <circle cx="0" cy="0" r="3.5" fill="#38BDF8"/>
+    <text x="14" y="4" class="font-mono" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="1">SYSTEM_ARCHITECTURE // DUAL-PLATFORM INTEGRATION FLOW</text>
+  </g>
+
+  <!-- CONNECTING BUS LINES -->
+  <!-- Mobile to API -->
+  <line x1="280" y1="95" x2="410" y2="95" stroke="#1E293B" stroke-width="2"/>
+  <circle cy="95" r="3.5" fill="#38BDF8" class="flow-mobile"/>
+
+  <!-- Web to API -->
+  <line x1="590" y1="95" x2="720" y2="95" stroke="#1E293B" stroke-width="2"/>
+  <circle cy="95" r="3.5" fill="#818CF8" class="flow-web"/>
+
+  <!-- API to Database -->
+  <line x1="500" y1="130" x2="500" y2="175" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="500" r="3.5" fill="#34D399" class="flow-db"/>
+
+  <!-- NODE 1: Mobile Client (Left) -->
+  <g transform="translate(40, 55)">
+    <rect x="0" y="0" width="240" height="80" rx="8" fill="url(#nodeGrad)" stroke="#1E293B" stroke-width="1"/>
+    <!-- Phone vector icon -->
+    <rect x="18" y="20" width="24" height="40" rx="4" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="30" cy="54" r="1.5" fill="#38BDF8"/>
+    <text x="56" y="34" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">Flutter Mobile</text>
+    <text x="56" y="52" class="font-mono" font-size="11" fill="#94A3B8">BLoC State Machine</text>
+    <text x="56" y="66" class="font-mono" font-size="10" fill="#38BDF8">Android &amp; iOS</text>
+  </g>
+
+  <!-- NODE 2: API Gateway / Backend Core (Center) -->
+  <g transform="translate(410, 55)">
+    <rect x="0" y="0" width="180" height="80" rx="8" fill="url(#nodeGrad)" stroke="#38BDF8" stroke-width="1.2"/>
+    <!-- API Lightning icon -->
+    <path d="M 30 22 L 20 42 L 28 42 L 22 58 L 40 38 L 30 38 Z" fill="#38BDF8"/>
+    <text x="52" y="34" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">REST API</text>
+    <text x="52" y="52" class="font-mono" font-size="11" fill="#94A3B8">JSON Endpoints</text>
+    <text x="52" y="66" class="font-mono" font-size="10" fill="#34D399">HTTP / Auth / Sync</text>
+  </g>
+
+  <!-- NODE 3: Web Platform (Right) -->
+  <g transform="translate(720, 55)">
+    <rect x="0" y="0" width="240" height="80" rx="8" fill="url(#nodeGrad)" stroke="#1E293B" stroke-width="1"/>
+    <!-- Web browser vector icon -->
+    <rect x="18" y="22" width="32" height="36" rx="4" fill="none" stroke="#818CF8" stroke-width="1.5"/>
+    <line x1="18" y1="32" x2="50" y2="32" stroke="#818CF8" stroke-width="1"/>
+    <text x="62" y="34" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">React &amp; Tailwind</text>
+    <text x="62" y="52" class="font-mono" font-size="11" fill="#94A3B8">Responsive Web UI</text>
+    <text x="62" y="66" class="font-mono" font-size="10" fill="#818CF8">Landing &amp; Admin</text>
+  </g>
+
+  <!-- NODE 4: Database Layer (Bottom Center) -->
+  <g transform="translate(360, 165)">
+    <rect x="0" y="0" width="280" height="52" rx="8" fill="url(#nodeGrad)" stroke="#1E293B" stroke-width="1"/>
+    <!-- Cylinder database icon -->
+    <ellipse cx="30" cy="20" rx="8" ry="3.5" fill="none" stroke="#34D399" stroke-width="1.5"/>
+    <path d="M 22 20 L 22 32 A 8 3.5 0 0 0 38 32 L 38 20" fill="none" stroke="#34D399" stroke-width="1.5"/>
+    <text x="50" y="26" class="font-sans" font-size="12.5" font-weight="700" fill="#F8FAFC">Supabase &amp; Relational SQL</text>
+    <text x="50" y="42" class="font-mono" font-size="10" fill="#64748B">PostgreSQL &#8226; MySQL &#8226; Realtime Storage</text>
+  </g>
+</svg>
