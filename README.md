@@ -2,9 +2,44 @@
   <!-- Bespoke Animated Header Banner -->
   <img src="assets/banner.svg" alt="Mahendra Dwi Putra - Web & Mobile Developer" width="100%" />
 
+  <br /><br />
+
+  <h1>Mahendra Dwi Putra</h1>
+  <p><b>Web &amp; Mobile Developer &bull; Yogyakarta, Indonesia</b></p>
+  <p><i>Building responsive web apps &amp; fluid cross-platform mobile experiences.</i></p>
+
+  <!-- Connect & Social Badges -->
+  <a href="https://linkedin.com/in/mahenputra" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:mahendradwiputra8@gmail.com">
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Mahenputraa" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://instagram.com/putrahndraa" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://mahenputra.dev" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
+  </a>
+
+  <br /><br />
+
+  <!-- Animated Typing Headline -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=15&pause=1200&color=94A3B8&center=true&vCenter=true&width=620&lines=Building+mobile+apps+with+Flutter+%26+Dart;Crafting+responsive+web+interfaces+with+React+%26+Tailwind;Integrating+REST+APIs+with+Supabase+%26+PostgreSQL;Focused+on+clean+code+%26+intuitive+UI%2FUX" alt="Typing SVG" />
+</div>
+
 <br />
 
 ---
+
+### 💡 About Me
+
+Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang berbasis di Yogyakarta, Indonesia. Saya berfokus pada perancangan aplikasi mobile lintas platform (*cross-platform*) menggunakan **Flutter** dengan manajemen status **BLoC**, serta pembuatan antarmuka web modern dan responsif dengan **React.js** dan **Tailwind CSS**. Saya senang membangun produk digital yang rapi, fungsional, dan memberikan pengalaman pengguna yang intuitif.
+
+<br />
 
 ### 🏛️ Dual-Platform Architecture &amp; Data Flow
 
@@ -14,70 +49,98 @@
 
 <br />
 
-Saya berfokus pada pembangunan ekosistem digital yang menghubungkan antarmuka mobile dan web melalui arsitektur terstruktur:
+---
 
-- **📱 Mobile Client (Flutter &amp; Dart):** Manajemen status reaktif menggunakan **BLoC Pattern**, pemisahan *presentation-domain-data layer*, dan optimasi rendering animasi 60 FPS.
-- **🌐 Web Platform (React &amp; Tailwind):** Komponen UI modern, arsitektur modular, dan antarmuka web responsif berorientasi aksesibilitas tinggi.
-- **⚡ Backend Services &amp; Database:** Integrasi RESTful API terpadu yang terhubung dengan **Supabase**, **PostgreSQL**, dan **MySQL**.
-
-<br />
-
-<details>
-  <summary><b>🛠️ Klik untuk melihat rincian ekosistem teknologi lengkap</b></summary>
+<div align="center">
+  <h3>🚀 Tech Stack &amp; Tools</h3>
   <br />
+  <!-- Organized 2-row Tech Stack Icons (7 per line) -->
+  <img src="https://skillicons.dev/icons?i=react,next,tailwind,vite,js,ts,flutter,dart,py,php,mysql,figma,vscode,git&theme=dark&perline=7" alt="Tech Stack & Tools" />
+</div>
 
-| Domain                          | Teknologi Utama             | Implementasi&amp; Tools                                         |
-| :------------------------------ | :-------------------------- | :-------------------------------------------------------------- |
-| **Mobile**                | Flutter, Dart               | BLoC State Management, REST API integration, Clean Architecture |
-| **Web**                   | React.js, Tailwind CSS, PHP | OOP&amp; MVC architecture, JavaScript, HTML5/CSS3               |
-| **Database &amp; BaaS**   | Supabase, PostgreSQL, MySQL | Relational schemas, Auth, Realtime storage                      |
-| **Workflow &amp; Design** | Git, GitHub, Figma, Postman | Version control, UI/UX handoff, API testing                     |
+<br /><br />
 
-</details>
+<div align="center">
+  <h3>💡 Featured Projects</h3>
+</div>
 
 <br />
-
-### 🚀 Featured Architectural Projects
 
 <table width="100%" style="border-collapse: collapse;">
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Mahenputraa/thekost">📱 TheKost — Mobile App</a></h4>
-      <p>Aplikasi mobile pencarian dan pemesanan kost/properti rental dengan fitur pencarian, filter, dan integrasi backend.</p>
-      <code>Flutter</code> • <code>Dart</code> • <code>BLoC Pattern</code> • <code>Supabase REST API</code>
+    <!-- TheKost -->
+    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
+      <h4><a href="https://github.com/Mahenputraa/thekost">🏨 TheKost</a></h4>
+      <p><i>Property rental platform frontend.</i></p>
+      <br />
+      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
     </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Mahenputraa/thekost-web">🌐 TheKost — Web Platform</a></h4>
-      <p>Landing page dan profil perusahaan resmi untuk aplikasi TheKost dengan tata letak modern dan responsif.</p>
-      <code>Tailwind CSS</code> • <code>JavaScript</code> • <code>HTML5</code> • <code>Responsive Design</code>
+    <!-- PT NusaGo -->
+    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
+      <h4>🏢 PT NusaGo</h4>
+      <p><i>Official responsive company website.</i></p>
+      <br />
+      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/TAILWIND_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Mahenputraa/sistem-registrasi-acara">🎟️ Acara Tech — Event Registration</a></h4>
-      <p>Website pendaftaran acara/workshop berbasis PHP (arsitektur OOP & MVC) dengan database MySQL dan dashboard admin.</p>
-      <code>PHP (OOP & MVC)</code> • <code>MySQL</code> • <code>Tailwind CSS</code> • <code>Admin Dashboard</code>
+    <!-- NusaGo Partner Docs -->
+    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
+      <h4>📑 NusaGo Partner Docs</h4>
+      <p><i>Internal documentation platform frontend.</i></p>
+      <br />
+      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
     </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Mahenputraa/uas_datscie_prediksi">📈 Weather Prediction Pipeline</a></h4>
-      <p>Analisis eksploratif data iklim BMKG dan perbandingan model peramalan temperatur rata-rata harian berbasis Python.</p>
-      <code>Python</code> • <code>Time-Series</code> • <code>Data Science</code> • <code>BMKG Dataset</code>
+    <!-- NusaGo Mobile App -->
+    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
+      <h4>📱 NusaGo Mobile App</h4>
+      <p><i>Mobile application UI screens.</i></p>
+      <br />
+      <img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/DART-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+    </td>
+  </tr>
+  <tr>
+    <!-- AppleScan ML Interface -->
+    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
+      <h4><a href="https://github.com/Mahenputraa/fruits_classification_tensorflow">🍎 AppleScan ML Interface</a></h4>
+      <p><i>UI for ML-based fruit classification.</i></p>
+      <br />
+      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    </td>
+    <!-- HairCheck System -->
+    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
+      <h4>💇 HairCheck System</h4>
+      <p><i>UI/UX design &amp; frontend development.</i></p>
+      <br />
+      <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
     </td>
   </tr>
 </table>
 
-<br />
-
-### 📊 Activity &amp; Coding Profile
+<br /><br />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mahenputraa&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8" height="155" alt="GitHub Stats" />
-   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahenputraa&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" height="155" alt="Top Languages" />
+  <p><b>Interested in collaborating or building something together?</b></p>
+  <p>Feel free to connect via <a href="https://instagram.com/putrahndraa">Instagram</a> or send an <a href="mailto:mahendradwiputra8@gmail.com">Email</a>.</p>
+  <br />
+  <sub>Developed &bull; Architected by <a href="https://github.com/Mahenputraa">@Mahenputraa</a> &bull; Yogyakarta, Indonesia</sub>
 </div>
 
-<br />
-
-<div align="center">
-  <sub>Architected • Developed by <a href="https://github.com/Mahenputraa">@Mahenputraa</a> • Mahendra Dwi Putra</sub>
-</div>
