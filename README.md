@@ -62,78 +62,77 @@ Halo! Saya **Mahendra Dwi Putra**, seorang **Web &amp; Mobile Developer** yang b
 
 <div align="center">
   <h3>💡 Featured Projects</h3>
+  <br />
+
+  <table align="center" style="border-collapse: collapse; margin: 0 auto;">
+    <tr>
+      <!-- TheKost -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4><a href="https://github.com/Mahenputraa/thekost">🏨 TheKost</a></h4>
+        <p><i>Property rental platform frontend.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+      </td>
+      <!-- PT NusaGo -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4>🏢 PT NusaGo</h4>
+        <p><i>Official responsive company website.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/TAILWIND_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+        <br /><br />
+        <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+      </td>
+    </tr>
+    <tr>
+      <!-- NusaGo Partner Docs -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4>📑 NusaGo Partner Docs</h4>
+        <p><i>Internal documentation platform frontend.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      </td>
+      <!-- NusaGo Mobile App -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4>📱 NusaGo Mobile App</h4>
+        <p><i>Mobile application UI screens.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/DART-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+      </td>
+    </tr>
+    <tr>
+      <!-- AppleScan ML Interface -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4><a href="https://github.com/Mahenputraa/fruits_classification_tensorflow">🍎 AppleScan ML Interface</a></h4>
+        <p><i>UI for ML-based fruit classification.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+      </td>
+      <!-- HairCheck System -->
+      <td width="380" valign="top" align="center" style="padding: 24px 16px;">
+        <h4>💇 HairCheck System</h4>
+        <p><i>UI/UX design &amp; frontend development.</i></p>
+        <br />
+        <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      </td>
+    </tr>
+  </table>
 </div>
-
-<br />
-
-<table width="100%" style="border-collapse: collapse;">
-  <tr>
-    <!-- TheKost -->
-    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
-      <h4><a href="https://github.com/Mahenputraa/thekost">🏨 TheKost</a></h4>
-      <p><i>Property rental platform frontend.</i></p>
-      <br />
-      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    </td>
-    <!-- PT NusaGo -->
-    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
-      <h4>🏢 PT NusaGo</h4>
-      <p><i>Official responsive company website.</i></p>
-      <br />
-      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/TAILWIND_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-      <br /><br />
-      <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    </td>
-  </tr>
-  <tr>
-    <!-- NusaGo Partner Docs -->
-    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
-      <h4>📑 NusaGo Partner Docs</h4>
-      <p><i>Internal documentation platform frontend.</i></p>
-      <br />
-      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    </td>
-    <!-- NusaGo Mobile App -->
-    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
-      <h4>📱 NusaGo Mobile App</h4>
-      <p><i>Mobile application UI screens.</i></p>
-      <br />
-      <img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/DART-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-    </td>
-  </tr>
-  <tr>
-    <!-- AppleScan ML Interface -->
-    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
-      <h4><a href="https://github.com/Mahenputraa/fruits_classification_tensorflow">🍎 AppleScan ML Interface</a></h4>
-      <p><i>UI for ML-based fruit classification.</i></p>
-      <br />
-      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-    </td>
-    <!-- HairCheck System -->
-    <td width="50%" valign="top" align="center" style="padding: 24px 16px;">
-      <h4>💇 HairCheck System</h4>
-      <p><i>UI/UX design &amp; frontend development.</i></p>
-      <br />
-      <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    </td>
-  </tr>
-</table>
 
 <br /><br />
 
