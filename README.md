@@ -4,7 +4,6 @@
 
   <br /><br />
 
-  <h1>Mahendra Dwi Putra</h1>
   <p><b>Web &amp; Mobile Developer &bull; Yogyakarta, Indonesia</b></p>
   <p><i>Building responsive web apps &amp; fluid cross-platform mobile experiences.</i></p>
 
